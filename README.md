@@ -3,7 +3,14 @@ drunken-dangerzone
 
 Some old programs from when I was a CS Major
 
-rock_paper_scissors
+Minesweeper
+-----------
+
+Simple Minesweeper module (Minesweeper.py) and accompaining implementation (Main.py). The module uses a bit of an abstraction on the typical row/column layout and instead uses cell count (left->right, top->bottom), which allows for a bit cleaner code (I think) and for the player, a quicker lookup that reads like poetry.
+
+It's likely the module's method documentation is not all correct (instructor's vision vs my implementation).
+
+Rock-Paper-Scissors
 -------------------
 
 A _slightly_ smart Rock-Paper-Scissors AI that uses previous player moves to determine what hand to play.
