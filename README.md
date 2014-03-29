@@ -3,6 +3,13 @@ drunken-dangerzone
 
 Some old programs from when I was a CS Major
 
+Game of Life
+============
+
+Module and implementation of the Game of Life.
+
+User has the choice to play a Random grid or search Still Lifes. In both modes, the user provides the number of columns and rows as well as how many live cells to place. In Random mode, cells are randomly placed and Life goes on. In Still Life mode, all possible fields of the designated size/cell count are created and checked for a still life. For example on a 5x5 grid with 5 live cells, 53,130 combinations will be checked (5x5c5 -> 25c5), 36 of which will be still lifes.
+
 Minesweeper
 -----------
 
